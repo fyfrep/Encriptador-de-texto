@@ -1,0 +1,152 @@
+
+body {
+    background-color: aqua;
+    box-sizing: border-box;
+}
+strong {
+    color: brown;
+    
+  
+}
+.presentacion{
+    display: flex; 
+    align-items: center;
+    margin: -1% 3%;
+    justify-content: space-between;
+
+}
+
+.encriptador{
+    width: 615px;
+    display: flex;
+    flex-direction:column;
+    gap: 25px;
+}
+
+.texto__aviso{
+    font-size: 2rem;
+
+}
+
+.encriptar{
+    font-size: 1.5rem;
+    background-color: rgb(0, 255, 98);
+}
+
+.encriptador__aviso{
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    gap: 32px;
+}
+
+.btn__encriptar{
+    font-size: 2rem;
+    width: 328px; height: 75px;
+    background-color: darkred;
+    text-align: center;
+    padding: 22px 0;
+    border-radius: 24px;
+    cursor: pointer;
+    
+        
+}
+.btn__desencriptar{
+    font-size: 2rem;
+    width: 328px; height: 75px;
+    background-color: yellow;
+    text-align: center;
+    padding: 22px 0;
+    border-radius: 24px; 
+    cursor: pointer;
+}
+
+.btn__encriptar:hover{
+    background-color: rgb(0, 255, 98);
+}
+
+.btn__desencriptar:hover{
+    background-color: rgb(0, 255, 98);
+}
+
+.footer{
+    background-color: rgb(0, 255, 98);
+    padding: -1px;
+    color : black;
+    text-align: center; 
+}
+
+.tarjeta{
+    
+    width: 300px;
+    display: flex;
+    flex-direction:column;
+    gap: 5px;
+    height: 500px;
+    background: yellowgreen;
+    box-shadow: 10px 24px 32px -8px color(red);
+    position: relative;
+    margin-top: 1px;
+    border-radius: 32px;
+    text-align: center;
+
+}
+
+.texto__uno{
+    text-align: center;
+    padding: 22px 0;
+    font-size: 1.3rem;
+}
+
+.texto__dos{
+    text-align: center;
+    padding: 22px 0;
+    font-size: 1rem;  
+}
+
+.presentacion__imagen{
+    width: 80%;
+}
+
+.evaluar{
+    width : 100%;
+    height: 485px;
+    position:absolute;
+    padding: 20px;
+    top: 0;
+    left: 0;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    background: transparent;
+    border-top-right-radius: 32px;
+    border-top-left-radius: 32px;
+    border: none;
+    resize: none;
+
+}
+
+.evaluar:focus{
+    outline: none;
+}
+
+.btn__copiar{
+    cursor: pointer;
+    width: 224px;
+    height: 67px;
+    margin: 23px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+   
+    visibility: hidden; 
+    padding: 24px;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    background: rgb;
+    border: 1px solid color(srgb);
+    border-radius: 20px;
+
+
+}
